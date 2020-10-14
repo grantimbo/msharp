@@ -26,23 +26,28 @@ a {
 	background: var(--yellow);
 	border: var(--yellow);
 }
-
+.btn-primary:hover {
+	background: #e4d069;
+	border: #e4d069;
+}
 
 // header
 header {
-	padding: .5rem 0;
+	padding: 1rem 0;
+	text-align: center;
 
 	.menu-toggle {
 		outline: 0;
 		border: 0;
 		background: none;
-		font-size: 1.5rem;
-		margin-right: 1rem;
+		font-size: 2rem;
+		position: absolute;
+		left: 1.2rem;
 	}
 
 	img.logo {
 		width: 100%;
-		max-width: 200px;
+		max-width: 250px;
 	}
 
 	.social-head {
@@ -129,9 +134,10 @@ header {
 		background-blend-mode: overlay;
 		background-size: cover;
 		color: #fff;
+		height: 70vh;
 
 		.content {
-			padding: 150px 0 200px;
+			padding: 0;
 		}
 	}
 
@@ -154,7 +160,7 @@ header {
 	}
 
 	.content {
-		padding: 150px 0 50px;
+		padding: 80px 0;
 
 		h1 {
 			font-size: 3rem;

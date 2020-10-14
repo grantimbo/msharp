@@ -1,6 +1,6 @@
 	<section class="bgyellow p-4">
         <h1 class="mb-4">Book Monchel For Speaking</h1>
-        <a href="<?php echo home_url(); ?>/speaking" class="btn btn-light btn-lg">Learn More</a>
+        <a href="<?php echo home_url(); ?>/#" class="btn btn-light btn-lg">Learn More</a>
     </section>
 
     <div class="container-lg">

@@ -1,9 +1,7 @@
 <?php get_header(); ?>
+<?php get_template_part('head-nav'); ?>
 
-<section class="imgCover home">
-
-    <?php get_template_part('head-nav'); ?>
-
+<section class="imgCover home d-flex align-items-center">
     <section class="container-lg">
         <div class="content">
             <h1 class="mb-3">Lorem, ipsum dolor sit amet, consectetur adipisicing elit.</h1>

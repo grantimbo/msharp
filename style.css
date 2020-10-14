@@ -26,17 +26,23 @@ a {
   background: var(--yellow);
   border: var(--yellow); }
 
+.btn-primary:hover {
+  background: #e4d069;
+  border: #e4d069; }
+
 header {
-  padding: .5rem 0; }
+  padding: 1rem 0;
+  text-align: center; }
   header .menu-toggle {
     outline: 0;
     border: 0;
     background: none;
-    font-size: 1.5rem;
-    margin-right: 1rem; }
+    font-size: 2rem;
+    position: absolute;
+    left: 1.2rem; }
   header img.logo {
     width: 100%;
-    max-width: 200px; }
+    max-width: 250px; }
   header .social-head {
     display: none; }
   header .menu-nav {
@@ -93,9 +99,10 @@ header {
   background: #987221 url(img/page/banner-blog.jpg) center center;
   background-blend-mode: overlay;
   background-size: cover;
-  color: #fff; }
+  color: #fff;
+  height: 70vh; }
   .imgCover.home .content {
-    padding: 150px 0 200px; }
+    padding: 0; }
 
 .imgCover.about {
   background: #987221 url(img/page/banner-about.jpg) center center;
@@ -113,7 +120,7 @@ header {
   background-size: cover; }
 
 .imgCover .content {
-  padding: 150px 0 50px; }
+  padding: 80px 0; }
   .imgCover .content h1 {
     font-size: 3rem;
     color: white; }

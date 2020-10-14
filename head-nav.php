@@ -4,7 +4,7 @@
             <i class="fas fa-bars"></i>
         </button>
         
-        <a href="<?php home_url(); ?>"><img src="<?php echo get_template_directory_uri(); ?>/img/mslogo.png" alt="" class="logo"></a>
+        <a href="<?php home_url(); ?>/"><img src="<?php echo get_template_directory_uri(); ?>/img/mslogo.png" alt="" class="logo"></a>
 
         <div class="tae">
             <nav class="menu-nav">
