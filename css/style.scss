@@ -1,0 +1,352 @@
+/*
+	Theme Name: JMiller
+	Theme URI: http://juniormiller.co.uk/
+	Description: Custom theme made by Grant Imbo for JuniorMiller.com
+	Version: 1.7
+	Author: Grant Imbo
+	Author URI: http://grantimbo.com/
+	Tags: holdings, clean, minimalist, clean theme
+*/
+:root {
+	--gray: #363636;
+	--lighgray: #eeeff5;
+}
+body {
+	font-size: 1.1rem;
+}
+.btn-lg {
+	padding: .8rem 2rem;
+}
+a {
+	text-decoration: none;
+}
+
+
+// header
+header {
+	padding: .5rem 0;
+
+	.menu-toggle {
+		outline: 0;
+		border: 0;
+		background: none;
+		font-size: 1.5rem;
+		margin-right: 1rem;
+	}
+
+	img.logo {
+		width: 100%;
+		max-width: 200px;
+	}
+
+	.social-head {
+		display: none;
+	}
+
+	.menu-nav {
+		position: fixed;
+		width: 300px;
+		left: -305px;
+		bottom: 0;
+		top: 0;
+		background: #fff;
+		transition: all .4s ease;
+		z-index: 3000;
+	
+		&.active {
+			left: 0;
+		}
+
+
+		li {
+			padding: 0;
+			margin: 0;
+			list-style: none;
+			position: relative;
+			
+			a {
+				display: block;
+				font-size: 1rem;
+				padding: 1rem 2rem;
+				border-bottom: 1px solid #dadada;
+				text-transform: uppercase;
+				font-weight: 500;
+				color: black;
+	
+				&:hover {
+					color: var(--bs-blue);
+				}
+			}
+
+			.submen {
+				a {
+					padding-left: 3.5rem;
+					font-size: .8rem;
+					color: #505050;
+
+					&:hover {
+						color: var(--bs-blue);
+					}
+				}
+			}
+
+		}
+
+		
+	}
+
+	.menu-shadow {
+		visibility: hidden;
+		opacity: 0;
+		transition: all .4s ease;
+	
+		&.active {
+			visibility: visible;
+			opacity: .5;
+			background: #828282;
+			position: fixed;
+			top: 0;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			z-index: 999;
+			cursor: pointer;
+		}
+	}
+}
+
+
+.imgCover {
+
+	&.home {
+		background: #ccc url(img/page/banner.jpg) center center;
+		background-size: cover;
+
+		.content {
+			padding: 150px 0 200px;
+		}
+	}
+
+	&.about {
+		background: #ccc url(img/page/banner-about.jpg) center center;
+		background-size: cover;
+	}
+
+	&.resources {
+		background: #ccc url(img/page/banner-resources.jpg) center center;
+		background-size: cover;
+	}
+
+	&.blog {
+		background: #ccc url(img/page/banner-blog.jpg) center center;
+		background-size: cover;
+	}
+
+	.content {
+		padding: 150px 0 50px;
+
+		h1 {
+			font-size: 3rem;
+			text-shadow: 1px 1px 0px #fff;
+		}
+	}
+	
+	
+}
+
+
+footer {
+	color: #000000;
+	text-align: center;
+
+	.privacy-links {
+		border-bottom: 1px solid #d4d8da;
+		padding: 1rem;
+		a {
+			font-size: 1rem;
+			margin-right: 1rem;
+		}
+	}
+	.social-links {
+		a {
+			padding: .3rem;
+			font-size: 1.2rem;
+		}
+	}
+	.copyright {
+		font-size: .9rem;
+
+		li {
+			display: inline;
+			list-style: none;
+
+			.submen {
+				display: inline;
+			}
+
+			.nolink {
+				display: none;
+			}
+		}
+
+		a {
+			padding: 0 .2rem;
+		}
+	}
+}
+
+
+// helper class
+.bgblue {
+	background: #098eff;
+	color: #fff;
+	text-align: center;
+}
+
+.bggray {
+	background: #efefef;
+	color: #000;
+}
+
+// pages
+.book-list {
+	h4 {
+		font-size: 1.6rem;
+	}
+	.author {
+		color: #a3a3a3;
+		font-size: 1rem;
+	}
+	p {
+		font-size: 1rem;
+	}
+	.btn {
+		background: #f5ba28;
+		border: 0;
+		color: #000;
+
+		&:hover {
+			opacity: .8;
+		}
+	}
+}
+
+.page-tools {
+	.millertae {
+		border-radius: 4px;
+		padding: 4px 8px;
+		background: #e6e6e6;
+		font-size: .9rem;
+		margin: 0;
+	}
+}
+.comp-culture {
+	i {
+		font-size: 3rem;
+		color: #098eff;
+	}
+}
+/*------------------------------------*\
+    RESPONSIVE
+\*------------------------------------*/
+
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+
+	header.head {
+		display: flex;
+		justify-content: space-between;
+
+		.tae {
+			display: flex;
+		}
+	
+		.menu-toggle {
+			display: none;
+		}
+		.menu-nav {
+			position: relative;
+			align-items: center;
+			display: flex;
+			left: auto;
+			bottom: auto;
+			top: auto;
+			background: none;
+			width: auto;
+			margin-right: 1.5rem;
+		
+			a {
+				display: inline;
+				padding: 1rem .8rem;
+				border: 0;
+				
+			}
+
+			
+
+
+			.submen {
+				display: none;
+
+				a {
+					padding: 0.6rem .8rem;
+					border-bottom: 1px solid #0000001c;
+					display: block;
+					font-size: .9rem;
+					font-weight: normal;
+					color: #656565;
+
+					&:last-child {
+						border: 0;
+					}
+				}
+			}
+
+			li:hover {
+				.submen {
+					display: block;
+					position: absolute;
+					top: 2rem;
+					left: 0;
+					width: 230px;
+					background: #ffffffc2;
+					box-shadow: 0 0 3px #0000001c;
+				}
+			}
+		}
+	
+		.social-head {
+			display: block;
+			display: flex;
+			align-items: center;
+	
+			a {
+				padding: 0 .4rem;
+				font-size: 1.2rem;
+				color: black;
+			}
+		}
+		
+		.menu-shadow {
+			display: none;
+		}
+	}
+
+	
+	.home-boxes {
+		min-height: 180px;
+	}
+	
+}
+
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+	
+}
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) {
+	
+}
