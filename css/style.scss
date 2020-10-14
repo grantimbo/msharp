@@ -10,6 +10,7 @@
 :root {
 	--gray: #363636;
 	--lighgray: #eeeff5;
+	--yellow: #eba307;
 }
 body {
 	font-size: 1.1rem;
@@ -18,7 +19,12 @@ body {
 	padding: .8rem 2rem;
 }
 a {
+	color: var(--yellow);
 	text-decoration: none;
+}
+.btn-primary {
+	background: var(--yellow);
+	border: var(--yellow);
 }
 
 
@@ -74,7 +80,7 @@ header {
 				color: black;
 	
 				&:hover {
-					color: var(--bs-blue);
+					color: var(--yellow);
 				}
 			}
 
@@ -119,8 +125,10 @@ header {
 .imgCover {
 
 	&.home {
-		background: #ccc url(img/page/banner.jpg) center center;
+		background: #987221 url(img/page/banner-blog.jpg) center center;
+		background-blend-mode: overlay;
 		background-size: cover;
+		color: #fff;
 
 		.content {
 			padding: 150px 0 200px;
@@ -128,17 +136,20 @@ header {
 	}
 
 	&.about {
-		background: #ccc url(img/page/banner-about.jpg) center center;
+		background: #987221 url(img/page/banner-about.jpg) center center;
+		background-blend-mode: overlay;
 		background-size: cover;
 	}
 
 	&.resources {
-		background: #ccc url(img/page/banner-resources.jpg) center center;
+		background: #987221 url(img/page/banner-resources.jpg) center center;
+		background-blend-mode: overlay;
 		background-size: cover;
 	}
 
 	&.blog {
-		background: #ccc url(img/page/banner-blog.jpg) center center;
+		background: #987221 url(img/page/banner-blog.jpg) center center;
+		background-blend-mode: overlay;
 		background-size: cover;
 	}
 
@@ -147,7 +158,7 @@ header {
 
 		h1 {
 			font-size: 3rem;
-			text-shadow: 1px 1px 0px #fff;
+			color: white;
 		}
 	}
 	
@@ -197,8 +208,8 @@ footer {
 
 
 // helper class
-.bgblue {
-	background: #098eff;
+.bgyellow {
+	background: #eba409;
 	color: #fff;
 	text-align: center;
 }
@@ -254,85 +265,7 @@ footer {
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) {
 
-	header.head {
-		display: flex;
-		justify-content: space-between;
-
-		.tae {
-			display: flex;
-		}
 	
-		.menu-toggle {
-			display: none;
-		}
-		.menu-nav {
-			position: relative;
-			align-items: center;
-			display: flex;
-			left: auto;
-			bottom: auto;
-			top: auto;
-			background: none;
-			width: auto;
-			margin-right: 1.5rem;
-		
-			a {
-				display: inline;
-				padding: 1rem .8rem;
-				border: 0;
-				
-			}
-
-			
-
-
-			.submen {
-				display: none;
-
-				a {
-					padding: 0.6rem .8rem;
-					border-bottom: 1px solid #0000001c;
-					display: block;
-					font-size: .9rem;
-					font-weight: normal;
-					color: #656565;
-
-					&:last-child {
-						border: 0;
-					}
-				}
-			}
-
-			li:hover {
-				.submen {
-					display: block;
-					position: absolute;
-					top: 2rem;
-					left: 0;
-					width: 230px;
-					background: #ffffffc2;
-					box-shadow: 0 0 3px #0000001c;
-				}
-			}
-		}
-	
-		.social-head {
-			display: block;
-			display: flex;
-			align-items: center;
-	
-			a {
-				padding: 0 .4rem;
-				font-size: 1.2rem;
-				color: black;
-			}
-		}
-		
-		.menu-shadow {
-			display: none;
-		}
-	}
-
 	
 	.home-boxes {
 		min-height: 180px;

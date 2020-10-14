@@ -1,15 +1,16 @@
 /*
-	Theme Name: Monchel Sharp
-	Theme URI: https://monchelsharp.com/
-	Description: Custom WordPress theme hand made by @grantimbo for monchelsharp.com
-	Version: 1
+	Theme Name: JMiller
+	Theme URI: http://juniormiller.co.uk/
+	Description: Custom theme made by Grant Imbo for JuniorMiller.com
+	Version: 1.7
 	Author: Grant Imbo
 	Author URI: http://grantimbo.com/
-	Tags: clean, minimalist, clean theme, bootstrap,
+	Tags: holdings, clean, minimalist, clean theme
 */
 :root {
   --gray: #363636;
-  --lighgray: #eeeff5; }
+  --lighgray: #eeeff5;
+  --yellow: #eba307; }
 
 body {
   font-size: 1.1rem; }
@@ -18,7 +19,12 @@ body {
   padding: .8rem 2rem; }
 
 a {
+  color: var(--yellow);
   text-decoration: none; }
+
+.btn-primary {
+  background: var(--yellow);
+  border: var(--yellow); }
 
 header {
   padding: .5rem 0; }
@@ -59,7 +65,7 @@ header {
         font-weight: 500;
         color: black; }
         header .menu-nav li a:hover {
-          color: var(--bs-blue); }
+          color: var(--yellow); }
       header .menu-nav li .submen a {
         padding-left: 3.5rem;
         font-size: .8rem;
@@ -84,28 +90,33 @@ header {
       cursor: pointer; }
 
 .imgCover.home {
-  background: #ccc url(img/page/banner.jpg) center center;
-  background-size: cover; }
+  background: #987221 url(img/page/banner-blog.jpg) center center;
+  background-blend-mode: overlay;
+  background-size: cover;
+  color: #fff; }
   .imgCover.home .content {
     padding: 150px 0 200px; }
 
 .imgCover.about {
-  background: #ccc url(img/page/banner-about.jpg) center center;
+  background: #987221 url(img/page/banner-about.jpg) center center;
+  background-blend-mode: overlay;
   background-size: cover; }
 
 .imgCover.resources {
-  background: #ccc url(img/page/banner-resources.jpg) center center;
+  background: #987221 url(img/page/banner-resources.jpg) center center;
+  background-blend-mode: overlay;
   background-size: cover; }
 
 .imgCover.blog {
-  background: #ccc url(img/page/banner-blog.jpg) center center;
+  background: #987221 url(img/page/banner-blog.jpg) center center;
+  background-blend-mode: overlay;
   background-size: cover; }
 
 .imgCover .content {
   padding: 150px 0 50px; }
   .imgCover .content h1 {
     font-size: 3rem;
-    text-shadow: 1px 1px 0px #fff; }
+    color: white; }
 
 footer {
   color: #000000;
@@ -131,8 +142,8 @@ footer {
     footer .copyright a {
       padding: 0 .2rem; }
 
-.bgblue {
-  background: #098eff;
+.bgyellow {
+  background: #eba409;
   color: #fff;
   text-align: center; }
 
@@ -172,70 +183,5 @@ footer {
     RESPONSIVE
 \*------------------------------------*/
 @media (min-width: 992px) {
-  header.head {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between; }
-    header.head .tae {
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex; }
-    header.head .menu-toggle {
-      display: none; }
-    header.head .menu-nav {
-      position: relative;
-      -webkit-box-align: center;
-          -ms-flex-align: center;
-              align-items: center;
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      left: auto;
-      bottom: auto;
-      top: auto;
-      background: none;
-      width: auto;
-      margin-right: 1.5rem; }
-      header.head .menu-nav a {
-        display: inline;
-        padding: 1rem .8rem;
-        border: 0; }
-      header.head .menu-nav .submen {
-        display: none; }
-        header.head .menu-nav .submen a {
-          padding: 0.6rem .8rem;
-          border-bottom: 1px solid #0000001c;
-          display: block;
-          font-size: .9rem;
-          font-weight: normal;
-          color: #656565; }
-          header.head .menu-nav .submen a:last-child {
-            border: 0; }
-      header.head .menu-nav li:hover .submen {
-        display: block;
-        position: absolute;
-        top: 2rem;
-        left: 0;
-        width: 230px;
-        background: #ffffffc2;
-        -webkit-box-shadow: 0 0 3px #0000001c;
-                box-shadow: 0 0 3px #0000001c; }
-    header.head .social-head {
-      display: block;
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-align: center;
-          -ms-flex-align: center;
-              align-items: center; }
-      header.head .social-head a {
-        padding: 0 .4rem;
-        font-size: 1.2rem;
-        color: black; }
-    header.head .menu-shadow {
-      display: none; }
   .home-boxes {
     min-height: 180px; } }
