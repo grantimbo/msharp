@@ -39,7 +39,7 @@ function header_styles() {
     wp_register_style('fontAwesome', get_template_directory_uri() . '/img/icons/font-awesome/css/all.min.css', array(), '5.13.1', 'all');
     wp_enqueue_style('fontAwesome'); // Enqueue it!
 
-    wp_register_style('styles', get_template_directory_uri() . '/style.css', array(), '1.7', 'all');
+    wp_register_style('styles', get_template_directory_uri() . '/style.css', array(), '2.1', 'all');
     wp_enqueue_style('styles'); // Enqueue it!
 
 }
