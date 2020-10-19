@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-<div class="head bgyellow">
+<div class="head bgLightgray">
     <div class="container">
         <h1 class="pt-5 pb-5 mb-3 text-white">404 Not Found</h1>
     </div>

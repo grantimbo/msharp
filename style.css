@@ -1,16 +1,17 @@
 /*
-	Theme Name: JMiller
-	Theme URI: http://juniormiller.co.uk/
-	Description: Custom theme made by Grant Imbo for JuniorMiller.com
-	Version: 1.7
+	Theme Name: MSharp
+	Theme URI: http://monchelsharp.com/
+	Description: Custom theme made by Grant Imbo for monchelsharp.com
+	Version: 2
 	Author: Grant Imbo
 	Author URI: http://grantimbo.com/
 	Tags: holdings, clean, minimalist, clean theme
 */
 :root {
-  --gray: #363636;
-  --lighgray: #eeeff5;
-  --yellow: #eba307; }
+  --lightBrown: #c1a081;
+  --persianGreen: #00a4a6;
+  --persianGreenDark: #0e7779;
+  --sliderOverlay: #715c4a; }
 
 body {
   font-size: 1.1rem; }
@@ -19,16 +20,16 @@ body {
   padding: .8rem 2rem; }
 
 a {
-  color: var(--yellow);
+  color: var(--persianGreen);
   text-decoration: none; }
 
 .btn-primary {
-  background: var(--yellow);
-  border: var(--yellow); }
+  background: var(--persianGreen);
+  border: var(--persianGreen); }
 
 .btn-primary:hover {
-  background: #e4d069;
-  border: #e4d069; }
+  background: var(--persianGreenDark);
+  border: var(--persianGreenDark); }
 
 header {
   padding: 1rem 0;
@@ -71,7 +72,7 @@ header {
         font-weight: 500;
         color: black; }
         header .menu-nav li a:hover {
-          color: var(--yellow); }
+          color: var(--persianGreen); }
       header .menu-nav li .submen a {
         padding-left: 3.5rem;
         font-size: .8rem;
@@ -96,7 +97,7 @@ header {
       cursor: pointer; }
 
 .imgCover.home {
-  background: #987221 url(img/page/banner-blog.jpg) center center;
+  background: var(--sliderOverlay) url(img/page/banner-blog.jpg) center center;
   background-blend-mode: overlay;
   background-size: cover;
   color: #fff;
@@ -105,17 +106,17 @@ header {
     padding: 0; }
 
 .imgCover.about {
-  background: #987221 url(img/page/banner-about.jpg) center center;
+  background: var(--sliderOverlay) url(img/page/banner-about.jpg) center center;
   background-blend-mode: overlay;
   background-size: cover; }
 
 .imgCover.resources {
-  background: #987221 url(img/page/banner-resources.jpg) center center;
+  background: var(--sliderOverlay) url(img/page/banner-resources.jpg) center center;
   background-blend-mode: overlay;
   background-size: cover; }
 
 .imgCover.blog {
-  background: #987221 url(img/page/banner-blog.jpg) center center;
+  background: var(--sliderOverlay) url(img/page/banner-blog.jpg) center center;
   background-blend-mode: overlay;
   background-size: cover; }
 
@@ -149,8 +150,8 @@ footer {
     footer .copyright a {
       padding: 0 .2rem; }
 
-.bgyellow {
-  background: #eba409;
+.bgLightgray {
+  background: var(--lightBrown);
   color: #fff;
   text-align: center; }
 
