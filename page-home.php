@@ -12,7 +12,7 @@
             </div>
         </div>
         <div class="col-5">
-            <img src="<?php echo get_template_directory_uri(); ?>/img/monchel.jpg" class="img-fluid shadow-lg p-3 mb-5 bg-white rounded" alt="">
+            <img src="<?php echo get_template_directory_uri(); ?>/img/monchel-home.jpg" class="img-fluid shadow-lg p-3 mb-5 bg-white rounded" alt="">
         </div>
     </div>
 </section>
@@ -24,13 +24,13 @@
         <div class="row">
             <div class="col-4">
                 <img src="<?php echo get_template_directory_uri(); ?>/img/learn1.jpg" class="img-fluid shadow-lg p-3 mb-5 bg-white rounded" alt="">
-                <h4>Book Monchel</h4>
+                <h4>Speaking Engagement</h4>
                 <p>Booking Monchél means you are ready to take things to the next level. It’s great to see that you have decided to step into a better version of you.</p>
                 <a class="btn btn-primary btn-lg" href="<?php echo home_url(); ?>/contact">Book Now</a>
             </div>
             <div class="col-4">
                 <img src="<?php echo get_template_directory_uri(); ?>/img/learn3.jpg" class="img-fluid shadow-lg p-3 mb-5 bg-white rounded" alt="">
-                <h4>Family & 1:1 Coaching</h4>
+                <h4>Coaching & Consulting</h4>
                 <p>What would this world be without our loved ones ? Families are the core of life and happiness. Putting your family first means choosing happiness.</p>
                 <a class="btn btn-primary btn-lg" href="<?php echo home_url(); ?>/contact">Book Now</a>
             </div>
@@ -46,10 +46,12 @@
 
 
 <section class="bg-light text-center spacer">
-    <div class="container">
+    <div class="container w-50">
         <h1 class="mb-5 border-bottom d-inline pb-1">Testimonials</h1>
-        <p style="font-size: 3.1rem; margin-top: 3rem">"I know Monchel is the coach for me!"</p>
-        <small style="font-size: 1.5rem;">- Blake Johnson</small>
+        <p style="font-size: 1.4rem; margin-top: 3rem">"What a brilliant experience it has been working with Monchel. Here ability to highlight and activate the greatness within others is unmatched by any."</p>
+        <b style="font-size: 1rem;" class="mb-5">- Junior I. Miller</b>
+        <p style="font-size: 1.4rem; margin-top: 3rem">"Monchel is a class act. It takes a special kind of person to bring out and stimulate ones true potentials, and she does that and more. The passion that accompanies her work is admirable."</p>
+        <b style="font-size: 1rem;">- Morrice S. Baker</b>
     </div>
 </section>
 
