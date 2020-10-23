@@ -1,10 +1,6 @@
-	<section class="bgLightgray p-5">
-        <h1 class="mb-5">Book Monchel For Speaking</h1>
-        <a href="<?php echo home_url(); ?>/#" class="btn btn-primary btn-lg">Learn More</a>
-    </section>
-
-    <div class="container-lg">
-        <footer class="row p-4">
+<footer class="bgLightgray">
+    <div class="container">
+        <div class="row p-4">
             <div class="col-lg-3 text-lg-left">
                 <h3>Get in touch</h3>
                 <div class="social-links mb-3">
@@ -22,9 +18,10 @@
                 </nav>
                 <p class="m-0">Copyright © Monchel Sharp, All Rights Reserved.</p>
             </div>
-        </footer>
+        </div>
     </div>
+</footer>
 
-    <?php wp_footer(); ?>
+<?php wp_footer(); ?>
 </body>
 </html>

@@ -1,4 +1,4 @@
-<div class="bg-white">
+<div class="container">
     <header class="head">
         <button class="menu-toggle" onclick="toggleMenu()">
             <i class="fas fa-bars"></i>

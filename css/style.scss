@@ -2,19 +2,21 @@
 	Theme Name: MSharp
 	Theme URI: http://monchelsharp.com/
 	Description: Custom theme made by Grant Imbo for monchelsharp.com
-	Version: 2.1
+	Version: 2.3
 	Author: Grant Imbo
 	Author URI: http://grantimbo.com/
 	Tags: holdings, clean, minimalist, clean theme
 */
 :root {
 	--lightBrown: #c1a081;
-	--persianGreen: #00a4a6;
-	--persianGreenDark: #0e7779;
+	--persianGreen: #7e7468;
+	--persianGreenDark: #635b53;
 	--sliderOverlay: #715c4a;
 }
 body {
 	font-size: 1.1rem;
+	background: #FBF6F1;
+	color: #585551;
 }
 .btn-lg {
 	padding: .8rem 2rem;
@@ -216,14 +218,16 @@ footer {
 
 // helper class
 .bgLightgray {
-	background: var(--lightBrown);
-	color: #fff;
-	text-align: center;
+	background: #F2E5DC;
 }
 
 .bggray {
 	background: #efefef;
 	color: #000;
+}
+
+.spacer {
+	padding: 100px 0;
 }
 
 // pages
@@ -272,7 +276,84 @@ footer {
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) {
 
+	header.head {
+		display: flex;
+		justify-content: space-between;
+
+		.tae {
+			display: flex;
+		}
 	
+		.menu-toggle {
+			display: none;
+		}
+		.menu-nav {
+			position: relative;
+			align-items: center;
+			display: flex;
+			left: auto;
+			bottom: auto;
+			top: auto;
+			background: none;
+			width: auto;
+			margin-right: 1.5rem;
+		
+			a {
+				display: inline;
+				padding: 1rem .8rem;
+				border: 0;
+				
+			}
+
+			
+
+
+			.submen {
+				display: none;
+
+				a {
+					padding: 0.6rem .8rem;
+					border-bottom: 1px solid #0000001c;
+					display: block;
+					font-size: .9rem;
+					font-weight: normal;
+					color: #656565;
+
+					&:last-child {
+						border: 0;
+					}
+				}
+			}
+
+			li:hover {
+				.submen {
+					display: block;
+					position: absolute;
+					top: 2rem;
+					left: 0;
+					width: 230px;
+					background: #ffffffc2;
+					box-shadow: 0 0 3px #0000001c;
+				}
+			}
+		}
+	
+		.social-head {
+			display: block;
+			display: flex;
+			align-items: center;
+	
+			a {
+				padding: 0 .4rem;
+				font-size: 1.2rem;
+				color: black;
+			}
+		}
+		
+		.menu-shadow {
+			display: none;
+		}
+	}
 	
 	.home-boxes {
 		min-height: 180px;
