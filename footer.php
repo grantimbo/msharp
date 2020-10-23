@@ -14,7 +14,7 @@
 
             <div class="copyright col-lg-9 text-lg-right">
                 <nav class="mb-2">
-                    <?php get_template_part('menu-footer-links'); ?>
+                    <?php get_template_part('menu-links'); ?>
                 </nav>
                 <p class="m-0">Copyright © Monchel Sharp, All Rights Reserved.</p>
             </div>
