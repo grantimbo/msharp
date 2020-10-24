@@ -11,6 +11,7 @@
                 <?php get_template_part('menu-links'); ?>
             </nav>
             <nav class="social-head">
+                <a target="_blank" href="https://www.facebook.com/monchel.sharp"><i class="fab fa-facebook"></i></a>
                 <a target="_blank" href="https://www.instagram.com/monchelsharp/"><i class="fab fa-instagram"></i></a>
                 <a target="_blank" href="https://www.youtube.com/channel/UCWRh9wPb2tnPeH-BqZqvj_A"><i class="fab fa-youtube"></i></a>
             </nav>

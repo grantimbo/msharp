@@ -4,6 +4,7 @@
             <div class="col-lg-3 text-lg-left">
                 <h3>Get in touch</h3>
                 <div class="social-links mb-3">
+                    <a target="_blank" href="https://www.facebook.com/monchel.sharp"><i class="fab fa-facebook"></i></a>
                     <a target="_blank" href="https://www.instagram.com/monchelsharp/"><i class="fab fa-instagram"></i></a>
                     <a target="_blank" href="https://www.youtube.com/channel/UCWRh9wPb2tnPeH-BqZqvj_A"><i class="fab fa-youtube"></i></a>
                 </div>

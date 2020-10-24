@@ -8,20 +8,20 @@
             <div class="col-4">
                 <img src="<?php echo get_template_directory_uri(); ?>/img/media1.png" class="img-fluid" alt="">
                 <h4>Facebook</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, repudiandae.</p>
-                <a class="btn btn-primary btn-lg" href="<?php echo home_url(); ?>/about">Book Now</a>
+                <p>Connect with Monchel on Facebook!</p>
+                <a class="btn btn-primary btn-lg" href="<?php echo home_url(); ?>/contact">Book Now</a>
             </div>
             <div class="col-4">
                 <img src="<?php echo get_template_directory_uri(); ?>/img/media2.png" class="img-fluid" alt="">
                 <h4>Instagram</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, repudiandae.</p>
-                <a class="btn btn-primary btn-lg" href="<?php echo home_url(); ?>/about">Book Now</a>
+                <p>Connect with Monchel on Instagram!</p>
+                <a class="btn btn-primary btn-lg" href="<?php echo home_url(); ?>/contact">Book Now</a>
             </div>
             <div class="col-4">
                 <img src="<?php echo get_template_directory_uri(); ?>/img/media3.png" class="img-fluid" alt="">
                 <h4>Youtube</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, repudiandae.</p>
-                <a class="btn btn-primary btn-lg" href="<?php echo home_url(); ?>/about">Book Now</a>
+                <p>Connect with Monchel on Youtube!</p>
+                <a class="btn btn-primary btn-lg" href="<?php echo home_url(); ?>/contact">Book Now</a>
             </div>
         </div>
     </div>
