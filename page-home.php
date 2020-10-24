@@ -44,8 +44,25 @@
     </div>
 </section>
 
+<section class="spacer bg-light">
+    <div class="container w-75">
+        <div class="row">
+            <div class="col-5">
+                <img src="<?php echo get_template_directory_uri(); ?>/img/free-ebook.png" class="img-fluid">
+            </div>
+            <div class="col-7 d-flex align-items-center">
+                <div class="mr-3">
+                    <h1>Monchel’s Free Gift To You</h1>
+                    <p>Gain Control of Your Life. 7 Empowerment Keys to Help You Transition Through.</p>
+                    <?php echo do_shortcode('[contact-form-7 id="43" title="Free Gift"]'); ?>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
-<section class="bg-light text-center spacer">
+
+<section class="text-center spacer">
     <div class="container w-50">
         <h1 class="mb-5 border-bottom d-inline pb-1">Testimonials</h1>
         <p style="font-size: 1.4rem; margin-top: 3rem">"What a brilliant experience it has been working with Monchel. Here ability to highlight and activate the greatness within others is unmatched by any."</p>
